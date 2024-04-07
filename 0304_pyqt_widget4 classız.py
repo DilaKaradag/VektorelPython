@@ -6,6 +6,7 @@ pencere = QMainWindow()
 pencere.setWindowTitle("Çeviri")
 
 icerik = QVBoxLayout()
+# icerik = QHBoxLayout()
 icerik.addWidget(QLabel("Çevrilecek: "))
 icerik.addWidget(QLineEdit())
 icerik.addWidget(QPushButton("Çevir"))
