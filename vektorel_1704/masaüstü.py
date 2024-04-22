@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import *
-import deneme, anaekran
+import deneme, anapencere
 
-    class loginEkrani(QMainWindow):
+class loginEkrani(QMainWindow):
 
         def kontrol(self):
             kadi = self.ka.text()
