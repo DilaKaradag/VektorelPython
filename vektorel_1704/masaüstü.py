@@ -1,5 +1,5 @@
 from PyQt6.QtWidgets import *
-import deneme, anapencere
+import anaekran
 
 class loginEkrani(QMainWindow):
 
@@ -15,6 +15,7 @@ class loginEkrani(QMainWindow):
             else:
                 # self.mesajGoster("Hatalı giriş yaptınız")
                 print("Hatalı giriş yaptınız")
+                anaekran.menu()
                 # self.mesajGoster()
 
         def __init__(self):
